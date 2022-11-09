@@ -2,7 +2,7 @@
  * @name Discord+ custom
  * @author many
  * @version 0.1.0
- * @description Highly customizable theme for Open asar theming, or vencord.
+ * @description Highly customizable theme for BetterDiscord.
 */
  
 /*@import url(https://discordstyles.github.io/discord-dyslexia/src/base.css);*/
@@ -10,18 +10,11 @@
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
-@import url("https://github.com/intergrav/frostcord/blob/main/frostcord.theme.css");
 /* @import url("https://discordstyles.github.io/Addons/bottomhsl.css"); */ /*delete the restto enable */
+/*@import url("https://KillYoy.github.io/DiscordNight/DiscordNight.css");*/
 
 :root {
-    /* General */
-    --blur: 30px; /* Adjust the blur. Default '16px' */
-	--opacity: 60^x%; /* Adjust the opacity. Default '90%' */ 
-}
-
-
-:root {
-    --word-spacing: 2px;       /* Word spacing */
+    --word-spacing: 2px;       /* Word spacing */@import url("https://KillYoy.github.io/DiscordNight/DiscordNight.css");
     --letter-spacing: 0.0px;  /* Letter Spacing */
     --message-line-spacing: 1;  /* Line spacing on messages */
 }
@@ -32,7 +25,7 @@
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: #202530;
+  --dplus-backdrop: url(https://cdn.discordapp.com/attachments/996653931033796638/1039717226787373096/wallpapertrans.png);
 
 /* Accent color, used to decorate the UI with colors. */
   --dplus-accent-color-hue: 311;
@@ -46,9 +39,9 @@
   --dplus-foreground-color-lightness-amount: 1;
 
 /* Background color: Covers the backdrop so the app is easier to read. */
-  --dplus-background-color-hue: 225;
-  --dplus-background-color-saturation: 1;
-  --dplus-background-color-lightness: 0;
+  --dplus-background-color-hue: 0;
+  --dplus-background-color-saturation-amount:0;
+  --dplus-background-color-lightness-amount: 1;
   --dplus-background-color-alpha: 0.8;
 }
 
@@ -107,8 +100,8 @@ Set avatar/server radius to 50% to make them circular.
 --dplus-icon-server-list: 32px;
 
 /* The Home icon on the top left */
---dplus-icon-home-dark: url(https://i.ibb.co/6v6X91g/trans-discord-c.png);
---dplus-icon-home-light: url(https://i.ibb.co/6v6X91g/trans-discord-c.png);
+--dplus-icon-home-dark: url(https://i.ibb.co/TqwvWVG/trans-discord-b.png);
+--dplus-icon-home-light: url(https://i.ibb.co/TqwvWVG/trans-discord-b.png);
 }
 
 
@@ -148,5 +141,4 @@ Set avatar/server radius to 50% to make them circular.
     --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
     --badges-everywhere-size: 15px; /*default = 15px*/
 }
-
 
