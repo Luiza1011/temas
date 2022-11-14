@@ -1,4 +1,4 @@
-@import url('https://s.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 @import url('https://commandcrafterhd.github.io/DiscordDarkNeon/css/usertags.css');
 @import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
@@ -59,6 +59,7 @@
   color: var(--highlight);
 }
 /* VERSION INFO */
+
 
 /* --== Add CRT effect ==-- */
 html,body::before, .root-2zfUH6::before,
@@ -334,6 +335,9 @@ body *, .userPopout-3XzG_A * {
   background-color: var(--background);
 }
 
+.inner-1ilYF7 * {
+  font-family: 'Share Tech Mono', monospace;
+}
 
 .resultsGroup-cfY57t {
   background-color: var(--background);
