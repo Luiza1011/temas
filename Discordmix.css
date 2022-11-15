@@ -1,39 +1,3 @@
-/* Fonts */
-
-@import url(https://discordstyles.github.io/discord-dyslexia/src/font/OpenDyslexic-Regular.woff);
-@import url(https://discordstyles.github.io/discord-dyslexia/src/font/OpenDyslexic-Italic.woff);
-@import url(https://discordstyles.github.io/discord-dyslexia/src/font/OpenDyslexic-Bold.woff);
-@import url(https://discordstyles.github.io/discord-dyslexia/src/font/OpenDyslexic-BoldItalic.woff);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700);
-
-/* Themes */
-
-
-/* Radial Status */ @import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
-
-/* Discord+ */ @import url(https://plusinsta.xyz/discord-plus/src/DiscordPlus-source.theme.css);
-
-/* Better Badges */ @import url(https://mr-miner1.github.io/Better-Badges/src/badges.css);
-
-/* Horizontal Server Lists */ @import url(https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css);
-
-/* Fallout 4 Main */ /*@import url(https://commandcrafterhd.github.io/Fallout4TerminalTheme/css/main.css);*/
-
-/* Disable Fallout CRT */ @import url(https://commandcrafterhd.github.io/Fallout4TerminalTheme/css/disableCRT.css);
-	
-/* Float imports */
-/* @import url("https://discordstyles.github.io/Addons/bottomhsl.css"); */ /*delete the restto enable */
-/* Addons */
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
-/* Warning to Remove Minimum Size */
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/RemoveMinimumSize.css) (width: 940px);
-/* Source */
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/Float.css) (max-width: 940px);
-/* If your theme has custom settings icons, delete or comment this line */
-/* @import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);*/	
-	
-	
 /* Emoji --------------------------------------------------------------------------------------- */
 
 .contentWrapper-3vHNP2 {
